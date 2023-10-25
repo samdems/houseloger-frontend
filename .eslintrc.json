@@ -1,0 +1,22 @@
+{
+  "env": {
+    "node": true
+  },
+  "extends": [
+    "@vue/typescript/recommended",
+    "eslint:recommended",
+    "plugin:vue/vue3-recommended",
+    "prettier"
+  ],
+  "rules": {
+    "semi": "error",
+    "prefer-const": "error",
+    "no-shadow":"off",
+    "@typescript-eslint/no-shadow": "error",
+    "no-use-before-define": "off",
+    "indent": [
+      "error",
+      "tab"
+  ]
+}
+}

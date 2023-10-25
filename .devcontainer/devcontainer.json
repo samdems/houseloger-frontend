@@ -1,6 +1,15 @@
 {
     "service": "dev",
     "dockerComposeFile": "docker-compose.yml",
-    "forwardPorts": [8080],
-    "workspaceFolder": "/workspace"
+    "forwardPorts": [5173],
+	"workspaceFolder": "/workspace",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"Vue.volar",
+				"Vue.vscode-typescript-vue-plugin",
+				"EditorConfig.EditorConfig"
+			]
+		}
+	}
   }
