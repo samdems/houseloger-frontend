@@ -8,7 +8,7 @@
     "build": "vue-tsc && vite build",
     "preview": "vite preview",
     "test": "vitest --dom --run",
-    "eslint": "eslint",
+    "lint": "eslint",
     "prepare": "husky install"
   },
   "dependencies": {
